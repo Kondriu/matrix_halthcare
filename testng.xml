@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Matrix Tests" verbose="2" annotations="JDK">
+    <test name="Matrix test"  parallel = "false">
+        <classes>
+            <class name="org.de_halthcare.api_tests.PublicApiTest" />
+            <class name="org.de_halthcare.ui_tests.SearchTest" />
+        </classes>
+    </test>
+
+</suite>
